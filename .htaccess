@@ -1,0 +1,8 @@
+<FilesMatch ".*\.(php|phtml|php7|pht|php5|php8|ph*|Ph*|pH*|PH*)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "(404.php|index.php)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
